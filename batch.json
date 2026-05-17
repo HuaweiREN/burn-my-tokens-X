@@ -1,0 +1,40 @@
+{
+  "jobs": 5,
+  "tasks": [
+    {
+      "id": "hero",
+      "promptFiles": ["prompts/hero.md"],
+      "image": "assets/hero.png",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "pipeline",
+      "promptFiles": ["prompts/pipeline.md"],
+      "image": "assets/pipeline_diagram.png",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "family",
+      "promptFiles": ["prompts/family.md"],
+      "image": "assets/family_overview.png",
+      "ar": "1:1",
+      "quality": "2k"
+    },
+    {
+      "id": "loop",
+      "promptFiles": ["prompts/loop.md"],
+      "image": "assets/burn_loop.png",
+      "ar": "1:1",
+      "quality": "2k"
+    },
+    {
+      "id": "before_after",
+      "promptFiles": ["prompts/before_after.md"],
+      "image": "assets/before_after.png",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}
